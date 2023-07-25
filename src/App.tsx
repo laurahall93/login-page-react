@@ -1,7 +1,15 @@
-import { greet } from "./utils/greet";
+import Header from "./components/Header";
+import MainBody from "./components/MainBody";
+import Footer from "./components/Footer";
 
 function App(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return (
+    <>
+      <Header />
+      <MainBody />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
