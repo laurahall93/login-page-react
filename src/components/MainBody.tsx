@@ -1,15 +1,9 @@
 export default function MainBody(): JSX.Element {
   return (
     <>
-      <label>
-        {" "}
-        Username :<input type="text"></input>
-      </label>
-
+      <button>Log In</button>
       <br />
-      <label>
-        Password :<input type="pasword"></input>
-      </label>
+      <button>Sign Up</button>
     </>
   );
 }

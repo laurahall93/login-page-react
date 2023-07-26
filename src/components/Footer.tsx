@@ -1,7 +1,7 @@
 export default function Footer(): JSX.Element {
   return (
     <>
-      <p>The end</p>
+      <p>&copy; Laura Hall</p>
     </>
   );
 }
